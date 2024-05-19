@@ -7,9 +7,8 @@ body {
     height: 100vh;
 }
 .heading p{
-   
-      position: relative;
-      left: 600px;
+       text-align: center;
+    
 }
 
 .main{
@@ -68,7 +67,7 @@ ul {
 li {
     background-color: #f9f9f9;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #b0a9a9;
     border-radius: 4px;
     margin-bottom: 10px;
     display: flex;
@@ -76,15 +75,12 @@ li {
     align-items: center;
 }
 
-li.completed {
-    text-decoration: line-through;
-    color: #aaa;
-}
+
 
 li button {
     background-color: #d9534f;
     border: none;
-    padding: 5px 10px;
+  padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
     color: white;
