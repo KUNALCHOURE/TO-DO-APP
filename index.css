@@ -7,13 +7,14 @@ body {
     height: 100vh;
 }
 .heading p{
+   
       position: relative;
       left: 600px;
 }
 
 .main{
     position: relative;
-    top: 250px;
+    top: 50px;
     display: flex;
     justify-content: center;
    align-items: center;
