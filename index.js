@@ -9,12 +9,22 @@ btn.addEventListener("click",function(){
 
     let delbtn=document.createElement("button")
     delbtn.innerText="DELETE";
-    delbtn.classList.add("deleltebtn");
+    delbtn.classList.add("delete");
     li.appendChild(delbtn);
      inp.value="";
-    console.log("clicked");
+   
 
 })
+
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON"){
+       let item=event.target.parentElement;
+       item.remove();
+    }
+})
+
+
+
 
 
 
